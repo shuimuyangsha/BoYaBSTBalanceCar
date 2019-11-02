@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{15262c46-331e-4834-8239-37d20ffa5d6c}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{6e253ba8-971a-48fc-8cd3-f67384d2673b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{b7732d61-3768-4cbf-9a57-58d975f99b87}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\FWlib">
+      <UniqueIdentifier>{a2019a28-31ef-4080-9a94-e6b5cf454f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CMSIS">
+      <UniqueIdentifier>{6c654ec4-c2c9-4aad-b4d5-acb0f85fffe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USER">
+      <UniqueIdentifier>{afb9cdf7-b2e0-4f09-8a93-2d609a2857c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STARTUP">
+      <UniqueIdentifier>{9f7c09be-3f5d-402b-9023-2c5a4b0ddbb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MPU DMP">
+      <UniqueIdentifier>{be4bea64-c435-4e10-8796-8c276f0cb70c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\::CMSIS">
+      <UniqueIdentifier>{dd22bf6e-a3c8-42a3-9280-880db08928c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{0a8b04b1-2eb6-4f86-9c38-4cdfad6aa253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FWlib">
+      <UniqueIdentifier>{24a46cd1-bc9e-4585-9615-b5214c8cbc1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CMSIS">
+      <UniqueIdentifier>{1da951cc-56e8-4ea6-85f5-67f34c0e6679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USER">
+      <UniqueIdentifier>{bfd887a9-8cb6-4673-8990-581391f40b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STARTUP">
+      <UniqueIdentifier>{4573a729-98cf-4a45-bc8b-8b815eddcaa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MPU DMP">
+      <UniqueIdentifier>{ed8f9ad6-d8d1-45a6-b6d9-e451af1e5927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\::CMSIS">
+      <UniqueIdentifier>{38e7a199-1d06-4bf0-9412-f49108da2c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{b493bc6b-46ca-46f5-b9aa-9978cdcea7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{a58e6135-bb3e-40bd-9999-8879e217b70b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\FWlib\src\misc.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_dma.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_exti.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_gpio.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_i2c.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_rcc.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_tim.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_usart.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_adc.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_bkp.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_can.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_cec.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_crc.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_dac.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_dbgmcu.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_flash.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_fsmc.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_iwdg.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_pwr.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_rtc.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_sdio.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_spi.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_wwdg.c">
+      <Filter>Source files\FWlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CMSIS\core_cm3.c">
+      <Filter>Source files\CMSIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CMSIS\system_stm32f10x.c">
+      <Filter>Source files\CMSIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\delay.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\I2C.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\I2C_MPU6050.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\led.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\main.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\motor.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\MPU6050.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\OUTPUTDATA.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\pwm.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\stm32f10x_it.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\systick.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\upstandingcar.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\usart.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\timer.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\User\UltrasonicWave.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CMSIS\startup\startup_stm32f10x_md.s">
+      <Filter>Source files\STARTUP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MPU6050\inv_mpu.c">
+      <Filter>Source files\MPU DMP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MPU6050\inv_mpu_dmp_motion_driver.c">
+      <Filter>Source files\MPU DMP</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\MPU6050\dmpKey.h">
+      <Filter>Header files\MPU DMP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\MPU6050\dmpmap.h">
+      <Filter>Header files\MPU DMP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\MPU6050\inv_mpu.h">
+      <Filter>Header files\MPU DMP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\MPU6050\inv_mpu_dmp_motion_driver.h">
+      <Filter>Header files\MPU DMP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="BoYaBSTBalanceCar-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="BoYaBSTBalanceCar-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

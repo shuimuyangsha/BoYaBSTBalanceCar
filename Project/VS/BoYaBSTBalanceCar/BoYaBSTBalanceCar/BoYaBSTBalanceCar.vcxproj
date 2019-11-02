@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{360201E9-50FD-45D8-AA93-139398FE410C}</ProjectGuid>
+    <BSP_ID>KEIL:Keil/STM32F1xx_DFP</BSP_ID>
+    <BSP_VERSION>2.2.0</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\CMSIS;..\..\..\..\FWlib\inc;..\..\..\..\FWlib\src;..\..\..\..\User;..\..\..\..\MPU6050;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>USE_STDPERIPH_DRIVER;STM32F10X_MD;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+    <KeilSettingsContainer>
+      <KeilCPUType>Cortex-M3</KeilCPUType>
+    </KeilSettingsContainer>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\CMSIS;..\..\..\..\FWlib\inc;..\..\..\..\FWlib\src;..\..\..\..\User;..\..\..\..\MPU6050;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>USE_STDPERIPH_DRIVER;STM32F10X_MD;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\FWlib\src\misc.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_dma.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_exti.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_i2c.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_tim.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_usart.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_adc.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_bkp.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_can.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_cec.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_crc.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_dac.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_dbgmcu.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_flash.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_fsmc.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_iwdg.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_pwr.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_rtc.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_sdio.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_spi.c" />
+    <ClCompile Include="..\..\..\..\FWlib\src\stm32f10x_wwdg.c" />
+    <ClCompile Include="..\..\..\..\CMSIS\core_cm3.c" />
+    <ClCompile Include="..\..\..\..\CMSIS\system_stm32f10x.c" />
+    <ClCompile Include="..\..\..\..\User\delay.c" />
+    <ClCompile Include="..\..\..\..\User\I2C.c" />
+    <ClCompile Include="..\..\..\..\User\I2C_MPU6050.c" />
+    <ClCompile Include="..\..\..\..\User\led.c" />
+    <ClCompile Include="..\..\..\..\User\main.c" />
+    <ClCompile Include="..\..\..\..\User\motor.c" />
+    <ClCompile Include="..\..\..\..\User\MPU6050.c" />
+    <ClCompile Include="..\..\..\..\User\OUTPUTDATA.c" />
+    <ClCompile Include="..\..\..\..\User\pwm.c" />
+    <ClCompile Include="..\..\..\..\User\stm32f10x_it.c" />
+    <ClCompile Include="..\..\..\..\User\systick.c" />
+    <ClCompile Include="..\..\..\..\User\upstandingcar.c" />
+    <ClCompile Include="..\..\..\..\User\usart.c" />
+    <ClCompile Include="..\..\..\..\User\timer.c" />
+    <ClCompile Include="..\..\..\..\User\UltrasonicWave.c" />
+    <ClCompile Include="..\..\..\..\CMSIS\startup\startup_stm32f10x_md.s" />
+    <ClCompile Include="..\..\..\..\MPU6050\inv_mpu.c" />
+    <ClCompile Include="..\..\..\..\MPU6050\inv_mpu_dmp_motion_driver.c" />
+    <None Include="mcu.props" />
+    <ClInclude Include="..\..\..\..\MPU6050\dmpKey.h" />
+    <ClInclude Include="..\..\..\..\MPU6050\dmpmap.h" />
+    <ClInclude Include="..\..\..\..\MPU6050\inv_mpu.h" />
+    <ClInclude Include="..\..\..\..\MPU6050\inv_mpu_dmp_motion_driver.h" />
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h" />
+    <None Include="BoYaBSTBalanceCar-Debug.vgdbsettings" />
+    <None Include="BoYaBSTBalanceCar-Release.vgdbsettings" />
+    <None Include="MCU.xml" />
+  </ItemGroup>
+</Project>

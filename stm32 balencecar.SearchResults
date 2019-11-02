@@ -1,0 +1,13 @@
+---- SendAutoUp Matches (12 in 4 files) ----
+BST Balance check.htm (output):<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendAutoUp
+BST Balance check.htm (output):<BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendAutoUp
+BST Balance check.htm (output):<P><STRONG><a name="[7f]"></a>SendAutoUp</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, upstandingcar.o(.text))
+BST Balance check.htm (output):<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SendAutoUp &rArr; CalcUpData &rArr; __aeabi_ddiv &rArr; _double_round
+BST Balance check.htm (output):<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = chaoshengbo &rArr; SendAutoUp &rArr; CalcUpData &rArr; __aeabi_ddiv &rArr; _double_round
+BST Balance check.htm (output):<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendAutoUp
+BST Balance check.htm (output):<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendAutoUp
+Main.c (user):		SendAutoUp();
+Upstandingcar.c (user):void SendAutoUp(void);
+Upstandingcar.c (user):    SendAutoUp();
+Upstandingcar.c (user):void SendAutoUp(void)
+Upstandingcar.h (user):extern void SendAutoUp(void);

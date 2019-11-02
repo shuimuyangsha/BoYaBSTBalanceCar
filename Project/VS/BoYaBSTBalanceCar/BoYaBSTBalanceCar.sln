@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoYaBSTBalanceCar", "BoYaBSTBalanceCar\BoYaBSTBalanceCar.vcxproj", "{360201E9-50FD-45D8-AA93-139398FE410C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{360201E9-50FD-45D8-AA93-139398FE410C}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{360201E9-50FD-45D8-AA93-139398FE410C}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{360201E9-50FD-45D8-AA93-139398FE410C}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{360201E9-50FD-45D8-AA93-139398FE410C}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7873E7F6-CC32-47F0-ABEB-01C2B4C071BB}
+	EndGlobalSection
+EndGlobal
